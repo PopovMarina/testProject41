@@ -11,5 +11,11 @@ public class MyFirstStarChrome {
             WebDriver driver = new ChromeDriver();
             driver.navigate().to("https://demoqa.com/");
             Thread.sleep(10000);
+            driver.quit();
+
+            //div[@class='card-boby']/h5[contains(text(), 'Elements')]
+
+            //tagName[@attributeName='attributeValue']
+
         }
     }
